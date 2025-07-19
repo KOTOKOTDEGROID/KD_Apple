@@ -21,6 +21,6 @@
 include:
   - board: rpi_pico
     shield: KD_Apple
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: KD_Apple_with_Studio
+    snippet: zmk-usb-logging
+
+    
