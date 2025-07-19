@@ -6,5 +6,5 @@
 include:
   - board: rpi_pico
     shield: KD_Apple
-
+    snippet: zmk-usb-logging
     
