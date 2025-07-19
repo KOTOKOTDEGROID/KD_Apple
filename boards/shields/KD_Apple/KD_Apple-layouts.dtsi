@@ -4,6 +4,8 @@
     KD_Apple: KD_Apple {
         compatible = "zmk,physical-layout";
         display-name = "KD_Apple";
+        transform = <&default_transform>;
+        kscan = <&kscan0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 104  75    0    0       0     0     0>
