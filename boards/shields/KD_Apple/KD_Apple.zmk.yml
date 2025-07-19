@@ -1,0 +1,9 @@
+file_format: "1"
+id: KD_Apple
+name: KD Apple
+type: shield
+url: https://github.com/Spaceboards/SpaceboardsHardware/tree/master/Keyboards/2%25%20Milk
+requires: [rpi_pico]
+features:
+  - keys
+  - studio
