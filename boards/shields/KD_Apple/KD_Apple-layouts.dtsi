@@ -1,3 +1,5 @@
+#include <physical_layouts.dtsi>
+
 / {
     KD_Apple: KD_Apple {
         compatible = "zmk,physical-layout";
