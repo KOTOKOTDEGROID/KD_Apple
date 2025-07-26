@@ -31,9 +31,9 @@
     };
     
     macros {
-        zed_em_kay: zed_em_kay {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
+        lm: lm {
+            compatible = "zmk,behavior-macro-two-param";
+            #binding-cells = <2>;
             wait-ms = <0>;
             tap-ms = <0>;
             bindings
