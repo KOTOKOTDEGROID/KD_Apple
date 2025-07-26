@@ -1,7 +1,7 @@
 #include <dt-bindings/led/led.h>
 
 &pinctrl {
-    pio0_spi1_default: pio0_spi1_default {
+    pio0_spi0_default: pio0_spi0_default {
         group1 {
             pinmux = <PIO0_P27>;
         };
@@ -11,8 +11,8 @@
 &pio0 {
     status = "okay";
 
-    pio0_spi1: pio0_spi1 {
-        pinctrl-0 = <&pio0_spi1_default>;
+    pio0_spi0: pio0_spi1 {
+        pinctrl-0 = <&pio0_spi0_default>;
         pinctrl-names = "default";
 
         compatible = "raspberrypi,pico-spi-pio";
